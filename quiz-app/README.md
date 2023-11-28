@@ -1,2 +1,2 @@
-# HEre is demo
+# Here is demo
 # https://my-quiz-app-asignment.netlify.app
