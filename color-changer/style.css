@@ -1,0 +1,217 @@
+
+h1{
+ margin-bottom: 4rem;
+ text-align: center;
+ 
+
+}
+h2{
+ margin-top: 4rem;
+ text-align: center;
+
+}
+
+#gray{
+ background-color: gray;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem;
+
+}
+#white{
+ background-color: white;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem; 
+}
+
+
+#blue{
+ background-color: blue;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem;
+}
+
+
+
+
+#yellow{
+ background-color: yellow;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem;
+ 
+}
+
+#green{
+ background-color: green;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem;
+ 
+}
+ 
+#orange{
+ background-color: orange;
+ padding: 20px 40px; 
+ border-radius: 8px; 
+ color: #212121; 
+ text-decoration: none;
+  border: 2px solid #212121;
+  margin-left: 1rem;
+ 
+}
+#pink{
+  background-color: pink;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   margin-left: 1rem;
+  
+ }
+
+ #red{
+  background-color: red;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   margin-left: 1rem;
+  
+ }
+
+ #brown{
+  background-color: brown;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   margin-left: 1rem;
+  
+ }
+.canvas{
+ margin-left: 22rem ;
+ }
+
+
+@media only screen and (max-width:500px) {
+ #gray{
+  background-color: gray;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem; */
+ 
+ }
+ #white{
+  background-color: white;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem;  */
+ }
+ 
+ 
+ #blue{
+  background-color: blue;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem; */
+ }
+ 
+ 
+ 
+ 
+ #yellow{
+  background-color: yellow;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem; */
+  
+ }
+  
+ #green{
+  background-color: green;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem; */
+  
+ }
+  
+ #orange{
+  background-color: orange;
+  padding: 20px 40px; 
+  border-radius: 8px; 
+  color: #212121; 
+  text-decoration: none;
+   border: 2px solid #212121;
+   /* margin-left: 1rem; */
+  
+ }
+ .canvas{
+  /* background-color: red; */
+  /* display: block !important; */
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 5rem; */
+  flex-wrap: wrap;
+  
+ }
+ .canvas{
+  margin-left: 0rem ;
+  }
+ #yellow{
+  margin-top: 1rem;
+
+ }
+ #green{
+  margin-top: 1rem;
+ }
+
+ #orange{
+  margin-top: 1rem;
+ }
+
+ #pink{
+margin-top: 1rem;
+}
+#red{
+  margin-top: 1rem;
+  }
+  #brown{
+    margin-top: 1rem;
+    }
+}
