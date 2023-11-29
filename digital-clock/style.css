@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+ font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+body{
+ /* background-color: brown; */
+ color: black;
+
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQyWvrtF7ZCwoJhbHJgL4J2bs1tlfg3gyc7g&usqp=CAU') ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+.center{
+ display: flex;
+ height: 90vh;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+#clock{
+ font-size: 40px;
+ background-color: orange;
+ padding: 20px 50px;
+ margin-top: 10px; 
+ border-radius: 10px;
+}
+
+@media only screen and (max-width:500px) {
+ *{
+
+  background-color: brown;
+  color: black;
+ }
+}
