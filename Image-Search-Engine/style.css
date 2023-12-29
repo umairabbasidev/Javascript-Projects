@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Red+Hat+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #39297b;
+}
+h1 {
+  text-align: center;
+  margin: 100px auto 50px;
+  font-weight: 600;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  height: 80px;
+  background: #434989;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+form input {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+form button {
+  border: 0;
+  outline: 0;
+  padding: 0 40px;
+  height: 100%;
+  background: #ff3929;
+  color: #fff;
+  font-size: 18px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 18px;
+}
+
+#show-more-btn {
+  background: #ff3929;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 10px auto 100px;
+  cursor: pointer;
+  display: none;
+}
+
+#search-result {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  /* margin: auto; */
+  /* justify-content: center; */
+}
+
+#search-result img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  /* margin: auto; */
+  /* display: flex; */
+  /* justify-content: space-around !important; */
+}
+
+/* Your existing styles */
+
+/* Your existing styles */
+
+
+/*@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    margin: 50px auto 25px;
+  }
+
+  form {
+    height: 60px;
+  }
+
+  form input {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+
+  form button {
+    padding: 0 15px;
+  }
+
+  #search-result {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  #search-result img {
+    height: 150px; 
+  }
+
+  #show-more-btn {
+    padding: 8px 16px;
+  }
+}
+
+*/
