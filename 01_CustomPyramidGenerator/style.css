@@ -1,0 +1,89 @@
+/* Body styling */
+body {
+  background-color: aliceblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 10px 0 10px;
+
+  height: 100vh;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styling for ordered list */
+ol {
+  font-size: 1.2em;
+  color: #555;
+  text-align: left;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* Unordered list inside the ordered list */
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  color: #4caf50;
+}
+
+/* Span styling for user choice text */
+#resultMessage {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #4caf50;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+#locationWord {
+  color: #ff5722;
+}
+
+#directionWord {
+  color: #3f51b5;
+}
+
+#directionIcon {
+  color: #9c27b0;
+}
+
+/* Styling for screen display of the pyramid */
+#displayScreenPyramid {
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Horizontal line styling */
+hr {
+  width: 50%;
+  border: 0;
+  border-top: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#promptMessage {
+  color: #ff5733;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}

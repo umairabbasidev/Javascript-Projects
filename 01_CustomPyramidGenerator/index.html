@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/standard-pyramid-img.png" type="image/x-icon" id="favicon">
+    <title>Custom Pyramid Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>👋 Hi there! Create your very own custom pyramid with just a few steps!<br/> Follow the instructions below to build a
+        pyramid to your liking:</h1>
+    <hr>
+    <div id="mainContainer">
+        <p id="promptMessage">The prompts will appear in a few seconds! Get ready to enter your choices...</p>
+
+        <ol>
+            <li>Choose Your Character: Enter any character you like (e.g., *, #, $, @) to form your pyramid. Let your
+                creativity
+                shine!</li>
+            <li>Set the Pyramid Size: Decide how many rows you want in your pyramid by entering a number. The bigger the
+                number,
+                the taller the pyramid!</li>
+            <li>Pick the Pyramid Style:
+                <ul>
+                    <li>Standard: Your pyramid will start small and grow upward.</li>
+                    <li>Inverted: Your pyramid will start wide and shrink downward.</li>
+                </ul>
+            </li>
+            <li>Select the Pyramid Location:
+                <ul>
+                    <li>Screen: View your pyramid right here on the screen.</li>
+                    <li>Console: Display the pyramid in the browser’s console (press F12 or right-click > Inspect >
+                        Console tab).</li>
+                </ul>
+            </li>
+        </ol>
+
+        <p>Once you've made your choices, sit back and watch as your personalized pyramid is generated before your eyes!
+        </p>
+    </div>
+    <!-- Loading indicator -->
+    <div id="loadingIndicator" style="display: none;">
+        <p>Generating your pyramid... Please wait 😊</p>
+    </div>
+    <span id="resultMessage" style="display: none;">
+        Check your <span id="locationWord"></span> for your desired <span id="directionWord"></span> <span
+            id="directionIcon"></span>
+        pyramid result! 😊
+    </span>
+
+
+    <p id="displayScreenPyramid" style="font-size: 20px; font-weight: bolder; color: crimson;"></p>
+    <script src="./app.js"></script>
+</body>
+
+</html>
