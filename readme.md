@@ -21,7 +21,7 @@ Welcome to my collection of advanced JavaScript projects! Dive into these projec
 Once you've made your choices, watch your personalized pyramid take shape!
 
 ### 2. 📚 Grade Book Web App
-**Live Demo:** [Grade Book Web App](https://gradedbook.vercel.app/)
+**Live Demo:** [Grade Book Web App](https://gradedbookwebapp.vercel.app)
 
 Welcome to the Grade Book Web App! 🎓 Your one-stop solution to calculate class averages and determine pass/fail grades.
 
