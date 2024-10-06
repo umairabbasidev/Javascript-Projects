@@ -5,7 +5,7 @@ Welcome to my collection of advanced JavaScript projects! Dive into these projec
 ## 🚀 Projects
 
 ### 1. 🌟 Custom Pyramid Generator
-**Live Demo:** [Custom Pyramid Generator](https://custompyramidgenerator.vercel.app)
+**Live Demo:** [Custom Pyramid Generator](https://custom-pyramid-gen.vercel.app)
 
 👋 Hi there! Create your custom pyramid in just a few steps! Follow the instructions below to build a pyramid to your liking:
 
